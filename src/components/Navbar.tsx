@@ -18,12 +18,12 @@ export default function Navbar() {
       initial={{ y: -60, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
-      className="fixed top-6 left-1/2 -translate-x-1/2 z-50 backdrop-blur-xl bg-white/5 border border-white/10 px-6 py-3 rounded-full shadow-lg flex items-center gap-4"
+      className="fixed top-6 left-1/2 -translate-x-1/2 z-50 backdrop-blur-xl bg-white/5 border border-white/10 px-8 py-3 rounded-full shadow-lg flex items-center gap-8"
     >
       {/* LOGO */}
       <button
         onClick={scrollToTop}
-        className="font-bold tracking-wide text-yellow-400 cursor-pointer hover:scale-105 transition shrink-0 whitespace-nowrap"
+        className="font-bold tracking-wide text-yellow-400 cursor-pointer hover:scale-105 transition"
       >
         NEXUS
       </button>
